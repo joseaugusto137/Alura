@@ -1,0 +1,38 @@
+
+//-------------------- WHILE ----------------------------
+
+// const letraCerta = prompt('Digite a Letra A')
+
+// while(letraCerta !== A){
+//     letraCerta = prompt('Por favor, digite a Letra A')
+// }
+
+// alert('Obrigado!')
+
+// var total = 0
+
+// while(total <= 5){
+//     console.log(total)
+//     total++
+// }
+
+// console.log('saiu do while ' + total)
+
+//---------------------- FOR ---------------------------
+
+for (let i = 0; i <= 10; i++){
+    if(i < 5){
+        console.log('Retorne Mais Tarde')
+    } else if(i == 5){
+        console.log('Espere Mais um pouco')
+    } else{
+        console.log('ENTRE')
+    }
+
+    i = 5
+
+console.log(i)
+}
+
+
+ 
