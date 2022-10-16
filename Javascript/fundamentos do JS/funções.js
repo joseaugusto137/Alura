@@ -33,7 +33,7 @@ console.log(nomeIdade('Carlos', 40))*/
    
    cumprimentaPessoa('José') 
 */
-   
+
 ///////Expressão de função
 
 /*const soma = function (num1, num2) {return num1 + num2}
@@ -48,15 +48,19 @@ console.log(soma(2,2))*/
 
 const soma = (num1, num2) => num1 + num2
 
+
 const somaNumerosPequenos = (num1, num2) => {
-    if(num1 > 10 || num2 >10){
-    return "somente números de 1 a 9"
-} else{
-    return num1 + num2
+    if (num1 > 10 || num2 > 10) {
+        return "somente números de 1 a 9"
+    } else {
+        return num1 + num2
+    }
 }
+
+console.log(somaNumerosPequenos(3, 2))
+
+
+for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    
 }
-
-console.log(somaNumerosPequenos(3,2))
-
-
-
