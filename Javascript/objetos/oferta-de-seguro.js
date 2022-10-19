@@ -13,11 +13,7 @@ const client = {
     parentesco: 'filho',
     dataNasc: '01/09/2020'
 }
-],
-    saldo: 100,
-    depositar: function(valor){
-    this.saldo += valor
-}
+]
 }
 
 
@@ -32,8 +28,7 @@ function oferecerSeguro (obj){
 }
 
 
-oferecerSeguro(client)
 
-// console.log(Object.entries(client))
-// console.log(Object.values(client))
+ console.log(Object.entries(client))
+ console.log(Object.values(client))
 
