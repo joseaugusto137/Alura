@@ -12,4 +12,6 @@ for (let atual = posicaoInicial; atual < arrProdutos.length; atual++){
     return maisBarato
 }
 
+
+
 module.exports = menorValor
