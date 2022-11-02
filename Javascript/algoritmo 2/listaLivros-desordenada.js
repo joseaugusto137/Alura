@@ -1,24 +1,24 @@
-const listaLivros = [
+let listaLivros = [
             {
                 título: 'Almoço Nu',
-                preco: 63
+                preco: 45
             },
             {
                 título: 'O Aleph',
-                preco: 60
+                preco: 48
 
             },
             {
                 título: 'Graça Infinita',
-                preco: 135
+                preco: 50
             },
             {
                 título: '2666',
-                preco: 46
+                preco: 57
             },
             {
                 título: 'Satantango',
-                preco: 90
+                preco: 60
             },
             {
                 título: 'Verão',
@@ -26,12 +26,12 @@ const listaLivros = [
             },
             {
                 título: 'O Mestre e Margarida',
-                preco: 91
+                preco: 80
 
             },
             {
                 título: 'Rúdin',
-                preco: 62
+                preco: 95
         
             },
             {
@@ -41,7 +41,7 @@ const listaLivros = [
             },
             {
                 título: 'Beowulf',
-                preco: 86
+                preco: 110
         
             },
             {
@@ -51,7 +51,7 @@ const listaLivros = [
             },    
             {
                 título: 'O processo do tenente Ieláguin',
-                preco: 48
+                preco: 130
                 
 
             }

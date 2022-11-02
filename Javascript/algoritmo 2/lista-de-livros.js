@@ -59,7 +59,8 @@ const editora34 = [
             título: 'O Idiota',
             preco: 124
     
-        }    
+        }
+    
 ]
 
 module.exports = { editoraCiaLetras, editora34}
