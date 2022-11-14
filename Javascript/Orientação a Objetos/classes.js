@@ -1,0 +1,58 @@
+ class User {
+    #nome
+    #email
+    #nascimento
+    #role
+    #ativo
+    constructor(nome, email, nascimento, role, ativo = true){
+    this.#nome = nome
+    this.#email = email
+    this.#nascimento = nascimento
+    this.#role = role || 'estudante'
+    this.#ativo = ativo
+    }
+ 
+
+// PROPRIEDADE GET \\
+    get nome(){
+        return this.#nome
+    }
+
+    get email(){
+        return this.#email
+    }
+
+    get nascimento(){
+        return this.#nascimento
+    }
+
+    get role(){
+        return this.#role
+    }
+
+    get ativo(){
+        return this.#ativo
+    }
+
+    set nome(novoNome){
+        if(novoNome === ''){
+            throw new Error ('Formato não válido')
+        }
+        this.#nome = novoNome
+    }
+
+ 
+
+    exibirInfos() {
+      
+        return `${this.nome}, ${this.email}, ${this.nascimento}, ${this.role}, ${this.ativo}`
+    }
+    
+ }
+
+//const novoUser = new User('José Augusto', '137augusto@gmail.com', '27/10/1989')
+
+// console.log(novoUser)
+// console.log(novoUser.exibirInfos())
+
+module.exports = User
